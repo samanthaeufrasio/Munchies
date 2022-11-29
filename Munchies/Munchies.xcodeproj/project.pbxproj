@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5315DA252934F27B006305BC /* afrodite.json in Resources */ = {isa = PBXBuildFile; fileRef = 5315DA242934F27B006305BC /* afrodite.json */; };
+		53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672AF2930FA6B004DEEE7 /* ModelJson.swift */; };
+		53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672B12930FB0E004DEEE7 /* JSONManager.swift */; };
+		53C672B42931088E004DEEE7 /* ErrosHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672B32931088E004DEEE7 /* ErrosHandler.swift */; };
+		53C672B629310B37004DEEE7 /* JSONSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672B529310B36004DEEE7 /* JSONSession.swift */; };
 		985986A7292BB850007A3807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985986A6292BB850007A3807 /* AppDelegate.swift */; };
 		985986A9292BB850007A3807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985986A8292BB850007A3807 /* SceneDelegate.swift */; };
 		985986AB292BB850007A3807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985986AA292BB850007A3807 /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5315DA242934F27B006305BC /* afrodite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = afrodite.json; sourceTree = "<group>"; };
+		53C672AF2930FA6B004DEEE7 /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
+		53C672B12930FB0E004DEEE7 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		53C672B32931088E004DEEE7 /* ErrosHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrosHandler.swift; sourceTree = "<group>"; };
+		53C672B529310B36004DEEE7 /* JSONSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSession.swift; sourceTree = "<group>"; };
 		985986A3292BB850007A3807 /* Munchies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		985986A6292BB850007A3807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		985986A8292BB850007A3807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +58,7 @@
 		5331EC30292C5C730008565C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				53C672AE2930FA5A004DEEE7 /* JSON */,
 				985986AA292BB850007A3807 /* ViewController.swift */,
 			);
 			path = Source;
@@ -59,6 +70,17 @@
 				985986AF292BB851007A3807 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		53C672AE2930FA5A004DEEE7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				53C672AF2930FA6B004DEEE7 /* ModelJson.swift */,
+				53C672B12930FB0E004DEEE7 /* JSONManager.swift */,
+				53C672B32931088E004DEEE7 /* ErrosHandler.swift */,
+				53C672B529310B36004DEEE7 /* JSONSession.swift */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		9859869A292BB850007A3807 = {
@@ -80,6 +102,7 @@
 		985986A5292BB850007A3807 /* Munchies */ = {
 			isa = PBXGroup;
 			children = (
+				5315DA242934F27B006305BC /* afrodite.json */,
 				5331EC31292C5C7D0008565C /* Resource */,
 				5331EC30292C5C730008565C /* Source */,
 				5331EC2F292C5C5D0008565C /* Application */,
@@ -149,6 +172,7 @@
 			files = (
 				985986B3292BB851007A3807 /* LaunchScreen.storyboard in Resources */,
 				985986B0292BB851007A3807 /* Assets.xcassets in Resources */,
+				5315DA252934F27B006305BC /* afrodite.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C672B629310B37004DEEE7 /* JSONSession.swift in Sources */,
+				53C672B42931088E004DEEE7 /* ErrosHandler.swift in Sources */,
+				53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */,
 				985986AB292BB850007A3807 /* ViewController.swift in Sources */,
+				53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */,
 				985986A7292BB850007A3807 /* AppDelegate.swift in Sources */,
 				985986A9292BB850007A3807 /* SceneDelegate.swift in Sources */,
 			);
