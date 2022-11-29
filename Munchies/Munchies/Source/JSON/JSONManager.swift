@@ -26,6 +26,6 @@ class JSONManager {
         return nil
     }
 
-    private init(){}
+    private init() {}
 
 }
