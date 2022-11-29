@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5315DA252934F27B006305BC /* afrodite.json in Resources */ = {isa = PBXBuildFile; fileRef = 5315DA242934F27B006305BC /* afrodite.json */; };
+		53370360293685D9006775BD /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337035F293685D9006775BD /* ViewCoding.swift */; };
 		53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672AF2930FA6B004DEEE7 /* ModelJson.swift */; };
 		53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672B12930FB0E004DEEE7 /* JSONManager.swift */; };
 		985986A7292BB850007A3807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985986A6292BB850007A3807 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		5315DA242934F27B006305BC /* afrodite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = afrodite.json; sourceTree = "<group>"; };
+		5337035F293685D9006775BD /* ViewCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewCoding.swift; path = ../../../../../../../.Trash/Munchies/Munchies/Munchies/Source/ViewCoding.swift; sourceTree = "<group>"; };
 		53C672AF2930FA6B004DEEE7 /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
 		53C672B12930FB0E004DEEE7 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		985986A3292BB850007A3807 /* Munchies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 		5331EC30292C5C730008565C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5337035E293685A4006775BD /* Protocol */,
 				53C672AE2930FA5A004DEEE7 /* JSON */,
 				985986AA292BB850007A3807 /* ViewController.swift */,
 			);
@@ -66,6 +69,14 @@
 				985986AF292BB851007A3807 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5337035E293685A4006775BD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5337035F293685D9006775BD /* ViewCoding.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		53C672AE2930FA5A004DEEE7 /* JSON */ = {
@@ -201,6 +212,7 @@
 				985986AB292BB850007A3807 /* ViewController.swift in Sources */,
 				53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */,
 				985986A7292BB850007A3807 /* AppDelegate.swift in Sources */,
+				53370360293685D9006775BD /* ViewCoding.swift in Sources */,
 				985986A9292BB850007A3807 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
