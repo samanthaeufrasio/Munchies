@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 // MARK: - Lista de receitas
 struct Afrodites: Codable {
     let afrodite: [Afrodite]
