@@ -46,6 +46,12 @@ class SearchBarController: UIViewController, UISearchResultsUpdating {
         navigationItem.searchController = searchController
 //        navigationController?.navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+    }
+    
+    @objc func teste() {
+        let teste = SearchBarController()
+        present(teste, animated: true, completion: nil)
     }
 
     func updateSearchResults(for searchController: UISearchController) {

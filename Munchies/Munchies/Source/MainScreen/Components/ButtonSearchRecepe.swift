@@ -11,7 +11,7 @@ class ButtonSearchRecipe: UIView {
 
     var didSearchRecipe: (() -> Void)?
 
-    lazy var buttonSearch: UIButton = {
+    private let buttonSearch: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.configuration = .bordered()
@@ -21,6 +21,7 @@ class ButtonSearchRecipe: UIView {
 //        button.titleLabel = UIFont.systemFont(ofSize: 16)
         button.backgroundColor = UIColor(named: "green-01")
         button.addTarget(self, action: #selector(buttonRecipe(_:)), for: .touchUpInside)
+//        button.addTarget(self, action: #selector(teste), for: .touchUpInside)
 
         return button
 
@@ -30,6 +31,10 @@ class ButtonSearchRecipe: UIView {
         didSearchRecipe?()
         }
 
+//    @objc func teste() {
+//        let teste = SearchBarController()
+//        present(teste, animated: true, completion: nil)
+//    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .white
