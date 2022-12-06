@@ -12,6 +12,8 @@
 		53370360293685D9006775BD /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337035F293685D9006775BD /* ViewCoding.swift */; };
 		535FABE32936E02A00034314 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FABE22936E02A00034314 /* MainScreenController.swift */; };
 		535FABE52936E03E00034314 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FABE42936E03E00034314 /* MainScreenView.swift */; };
+		5389866A293F86C600012F9A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53898669293F86C600012F9A /* TableViewController.swift */; };
+		5389866C293F86EB00012F9A /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389866B293F86EB00012F9A /* TableViewModel.swift */; };
 		53B6DE82293E24C6003CDD7C /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE81293E24C6003CDD7C /* SearchBarController.swift */; };
 		53B6DE84293E3028003CDD7C /* ButtonSearchRecepe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */; };
 		53C0E7A82937CE1800F5960C /* NoIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */; };
@@ -30,6 +32,8 @@
 		5337035F293685D9006775BD /* ViewCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewCoding.swift; path = ../../../../../../../.Trash/Munchies/Munchies/Munchies/Source/ViewCoding.swift; sourceTree = "<group>"; };
 		535FABE22936E02A00034314 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
 		535FABE42936E03E00034314 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		53898669293F86C600012F9A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5389866B293F86EB00012F9A /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		53B6DE81293E24C6003CDD7C /* SearchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
 		53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSearchRecepe.swift; sourceTree = "<group>"; };
 		53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIngredientsView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		5331EC30292C5C730008565C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				53898668293F86A600012F9A /* TableView */,
 				535FABE12936DFCB00034314 /* MainScreen */,
 				5337035E293685A4006775BD /* Protocol */,
 				53C672AE2930FA5A004DEEE7 /* JSON */,
@@ -101,6 +106,15 @@
 				535FABE42936E03E00034314 /* MainScreenView.swift */,
 			);
 			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		53898668293F86A600012F9A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				53898669293F86C600012F9A /* TableViewController.swift */,
+				5389866B293F86EB00012F9A /* TableViewModel.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		53C0E7A62937CCC300F5960C /* Components */ = {
@@ -243,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */,
+				5389866C293F86EB00012F9A /* TableViewModel.swift in Sources */,
 				985986AB292BB850007A3807 /* ViewController.swift in Sources */,
+				5389866A293F86C600012F9A /* TableViewController.swift in Sources */,
 				53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */,
 				535FABE32936E02A00034314 /* MainScreenController.swift in Sources */,
 				985986A7292BB850007A3807 /* AppDelegate.swift in Sources */,
