@@ -38,3 +38,16 @@ struct Secao: Codable {
     let nome: String
     let conteudo: [String]
 }
+
+// MARK: - Model Json Ingredients
+
+// MARK: - Ingredients
+struct Ingredients: Codable {
+    let sections: [Section]
+}
+
+// MARK: - Section
+struct Section: Codable {
+    let name: String
+    let ingredients: [String]
+}
