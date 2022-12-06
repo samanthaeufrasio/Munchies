@@ -1,0 +1,275 @@
+{
+    "sections":[
+        {
+            "name": "A",
+            "ingredients":[
+                "Abacate",
+                "Abacaxi",
+                "Abobrinha",
+                "Açafrão",
+                "Açaí",
+                "Açúcar de coco",
+                "Açúcar demerara",
+                "Açúcar mascavo",
+                "Água de coco",
+                "Alcachofra",
+                "Alecrim",
+                "Alfafa",
+                "Amaranto",
+                "Amora",
+                "Anchova",
+                "Arroz",
+                "Aveia",
+                "Azeite"
+            ]
+        },
+        {
+            "name": "B",
+            "ingredients":[
+                "Bacon",
+                "Banana",
+                "Batata",
+                "Batata-doce",
+                "Berinjela",
+                "Beterraba",
+                "Biomassa de banana verde",
+                "Boldo",
+                "Brócolis"
+            ]
+        },
+        {
+            "name": "C",
+            "ingredients":[
+                "Cacau em pó",
+                "Café",
+                "Camarão",
+                "Camomila",
+                "Canela",
+                "Cará",
+                "Carne de porco",
+                "Carne moída",
+                "Castanha da Índia",
+                "Castanha-do-pará",
+                "Cebola",
+                "Cebolinha",
+                "Cenoura",
+                "Cereja",
+                "Chá branco",
+                "Chá de amora",
+                "Chá de camomila",
+                "Chá de canela",
+                "Chá de gengibre",
+                "Chá de hibisco",
+                "Chá preto",
+                "Chá verde",
+                "Chá-mate",
+                "Chia",
+                "Chocolate",
+                "Coco",
+                "Coentro",
+                "Cogumelos",
+                "Cranberry",
+                "Cuscuz"
+            ]
+        },
+        {
+            "name": "D",
+            "ingredients":
+            []
+        },
+        {
+            "name": "E",
+            "ingredients":[
+                "Erva cidreira",
+                "Erva doce",
+                "Ervilha",
+                "Extrato de tomate"
+            ]
+        },
+        {
+            "name": "F",
+            "ingredients":[
+                "Farelo de aveia",
+                "Farinha de amora",
+                "Farinha de banana verde",
+                "Farinha de berinjela",
+                "Farinha de coco",
+                "Farinha de feijão branco",
+                "Farinha de rosca",
+                "Farinha de trigo",
+                "Feijão",
+                "Feijão de corda",
+                "Frango",
+                "Fubá"
+            ]
+        },
+        {
+            "name": "G",
+            "ingredients":[
+                "Gelatina em pó",
+                "Gengibre",
+                "Ginseng",
+                "Goji berry",
+                "Goma de Tapioca",
+                "Grão-de-bico"
+            ]
+        },
+        {
+            "name": "H",
+            "ingredients":
+            []
+        },
+        {
+            "name": "I",
+            "ingredients":[
+                "Inhame",
+                "Iogurte"
+            ]
+        },
+        {
+            "name": "J",
+            "ingredients":
+            []
+        },
+        {
+            "name": "K",
+            "ingredients":[
+                "Kefir",
+                "Kiwi",
+                "Kombucha"
+            ]
+        },
+        {
+            "name": "L",
+            "ingredients":[
+                "Laranja",
+                "Leite",
+                "Leite condensado",
+                "Leite de coco",
+                "Lentilha",
+                "Limão",
+                "Limão Siciliano",
+                "Linhaça"
+            ]
+        },
+        {
+            "name": "M",
+            "ingredients":[
+                "Maçã",
+                "Macarrão",
+                "Maionese",
+                "Mandioca",
+                "Mandioquinha",
+                "Manga",
+                "Manjericão",
+                "Manteiga",
+                "Maracujá",
+                "Mel",
+                "Melancia",
+                "Milho",
+                "Mostarda"
+            ]
+        },
+        {
+            "name": "N",
+            "ingredients":[
+                "Nozes",
+                "Noz-moscada"
+            ]
+        },
+        {
+            "name": "O",
+            "ingredients":[
+                "Óleo",
+                "Óleo de coco",
+                "Orégano",
+                "Ovo"
+            ]
+        },
+        {
+            "name": "P",
+            "ingredients":[
+                "Panko",
+                "Pão",
+                "Pasta de amendoim",
+                "Pepino",
+                "Pequi",
+                "Pimenta",
+                "Pimentão",
+                "Polvilho doce",
+                "Polvilho azedo",
+                "Pitaya",
+                "Própolis"
+            ]
+        },
+        {
+            "name": "Q",
+            "ingredients":[
+                "Queijo",
+                "Quiabo",
+                "Quinoa"
+            ]
+        },
+        {
+            "name": "R",
+            "ingredients":[
+                "Requeijão",
+                "Ricota",
+                "Repolho",
+                "Rúcula"
+            ]
+        },
+        {
+            "name": "S",
+            "ingredients":[
+                "Sal",
+                "Shimeji",
+                "Soja",
+                "Stevia"
+            ]
+        },
+        {
+            "name": "T",
+            "ingredients":[
+                "Tomate",
+                "Tomilho"
+            ]
+        },
+        {
+            "name": "U",
+            "ingredients":[
+                "Uva",
+                "Uvas-passas"
+            ]
+        },
+        {
+            "name": "V",
+            "ingredients":[
+                "Vinagre",
+                "Vinagre de maçã",
+                "Vinho"
+            ]
+        },
+        {
+            "name": "W",
+            "ingredients":
+            []
+        },
+        {
+            "name": "X",
+            "ingredients":
+            []
+        },
+        {
+            "name": "Y",
+            "ingredients":
+            []
+        },
+        {
+            "name": "Z",
+            "ingredients":
+            []
+        }
+        
+    ]
+}

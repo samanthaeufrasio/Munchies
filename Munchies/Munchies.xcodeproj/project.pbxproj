@@ -14,6 +14,7 @@
 		535FABE52936E03E00034314 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FABE42936E03E00034314 /* MainScreenView.swift */; };
 		5389866A293F86C600012F9A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53898669293F86C600012F9A /* TableViewController.swift */; };
 		5389866C293F86EB00012F9A /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389866B293F86EB00012F9A /* TableViewModel.swift */; };
+		5389866E293F8C1800012F9A /* ListIngredients.json in Resources */ = {isa = PBXBuildFile; fileRef = 5389866D293F8C1800012F9A /* ListIngredients.json */; };
 		53B6DE82293E24C6003CDD7C /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE81293E24C6003CDD7C /* SearchBarController.swift */; };
 		53B6DE84293E3028003CDD7C /* ButtonSearchRecepe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */; };
 		53C0E7A82937CE1800F5960C /* NoIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */; };
@@ -34,6 +35,7 @@
 		535FABE42936E03E00034314 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		53898669293F86C600012F9A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5389866B293F86EB00012F9A /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		5389866D293F8C1800012F9A /* ListIngredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ListIngredients.json; sourceTree = "<group>"; };
 		53B6DE81293E24C6003CDD7C /* SearchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
 		53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSearchRecepe.swift; sourceTree = "<group>"; };
 		53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIngredientsView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		985986A5292BB850007A3807 /* Munchies */ = {
 			isa = PBXGroup;
 			children = (
+				5389866D293F8C1800012F9A /* ListIngredients.json */,
 				5315DA242934F27B006305BC /* afrodite.json */,
 				5331EC2F292C5C5D0008565C /* Application */,
 				5331EC31292C5C7D0008565C /* Resource */,
@@ -223,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5389866E293F8C1800012F9A /* ListIngredients.json in Resources */,
 				985986B3292BB851007A3807 /* LaunchScreen.storyboard in Resources */,
 				985986B0292BB851007A3807 /* Assets.xcassets in Resources */,
 				5315DA252934F27B006305BC /* afrodite.json in Resources */,
