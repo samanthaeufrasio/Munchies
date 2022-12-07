@@ -41,16 +41,9 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableViewIngredients.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-//        cell.textLabel?.text = tableViewModel.ingredientsArray[indexPath.row]
         return cell
     }
 
 
 }
 
-//self.selected
-//let selectedRow = tableViewIngredients.cellForRow(at: indexPath)
-//selectedRow?.accessoryType = (selectedRow?.accessoryType == .checkmark) ? .none : .checkmark
-//selectedRow?.tintColor = UIColor(named: "green-01")
-//selectedRow?.selectionStyle = .none
-//print("Selection color")
