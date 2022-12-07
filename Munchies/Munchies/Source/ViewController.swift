@@ -12,12 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        var aloMubdo = JSONManager.instance.loadjson()
-        for i in 0..<aloMubdo!.endIndex {
-            print(aloMubdo?[i].nome)
-        }
     }
 
-
 }
-

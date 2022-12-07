@@ -8,7 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5315DA252934F27B006305BC /* afrodite.json in Resources */ = {isa = PBXBuildFile; fileRef = 5315DA242934F27B006305BC /* afrodite.json */; };
+		5318134B293A243C00E59672 /* TitleLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318134A293A243C00E59672 /* TitleLabelsView.swift */; };
 		53370360293685D9006775BD /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337035F293685D9006775BD /* ViewCoding.swift */; };
+		535FABE32936E02A00034314 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FABE22936E02A00034314 /* MainScreenController.swift */; };
+		535FABE52936E03E00034314 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FABE42936E03E00034314 /* MainScreenView.swift */; };
+		5389866A293F86C600012F9A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53898669293F86C600012F9A /* TableViewController.swift */; };
+		5389866C293F86EB00012F9A /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389866B293F86EB00012F9A /* TableViewModel.swift */; };
+		5389866E293F8C1800012F9A /* ListIngredients.json in Resources */ = {isa = PBXBuildFile; fileRef = 5389866D293F8C1800012F9A /* ListIngredients.json */; };
+		53B6DE82293E24C6003CDD7C /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE81293E24C6003CDD7C /* SearchBarController.swift */; };
+		53B6DE84293E3028003CDD7C /* ButtonSearchRecepe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */; };
+		53C0E7A82937CE1800F5960C /* NoIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */; };
 		53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672AF2930FA6B004DEEE7 /* ModelJson.swift */; };
 		53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C672B12930FB0E004DEEE7 /* JSONManager.swift */; };
 		985986A7292BB850007A3807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985986A6292BB850007A3807 /* AppDelegate.swift */; };
@@ -20,7 +29,16 @@
 
 /* Begin PBXFileReference section */
 		5315DA242934F27B006305BC /* afrodite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = afrodite.json; sourceTree = "<group>"; };
+		5318134A293A243C00E59672 /* TitleLabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelsView.swift; sourceTree = "<group>"; };
 		5337035F293685D9006775BD /* ViewCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewCoding.swift; path = ../../../../../../../.Trash/Munchies/Munchies/Munchies/Source/ViewCoding.swift; sourceTree = "<group>"; };
+		535FABE22936E02A00034314 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		535FABE42936E03E00034314 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		53898669293F86C600012F9A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5389866B293F86EB00012F9A /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		5389866D293F8C1800012F9A /* ListIngredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ListIngredients.json; sourceTree = "<group>"; };
+		53B6DE81293E24C6003CDD7C /* SearchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
+		53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSearchRecepe.swift; sourceTree = "<group>"; };
+		53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIngredientsView.swift; sourceTree = "<group>"; };
 		53C672AF2930FA6B004DEEE7 /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
 		53C672B12930FB0E004DEEE7 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		985986A3292BB850007A3807 /* Munchies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +74,8 @@
 		5331EC30292C5C730008565C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				53898668293F86A600012F9A /* TableView */,
+				535FABE12936DFCB00034314 /* MainScreen */,
 				5337035E293685A4006775BD /* Protocol */,
 				53C672AE2930FA5A004DEEE7 /* JSON */,
 				985986AA292BB850007A3807 /* ViewController.swift */,
@@ -77,6 +97,36 @@
 				5337035F293685D9006775BD /* ViewCoding.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		535FABE12936DFCB00034314 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				53C0E7A62937CCC300F5960C /* Components */,
+				53B6DE81293E24C6003CDD7C /* SearchBarController.swift */,
+				535FABE22936E02A00034314 /* MainScreenController.swift */,
+				535FABE42936E03E00034314 /* MainScreenView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		53898668293F86A600012F9A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				53898669293F86C600012F9A /* TableViewController.swift */,
+				5389866B293F86EB00012F9A /* TableViewModel.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		53C0E7A62937CCC300F5960C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				53C0E7A72937CE1800F5960C /* NoIngredientsView.swift */,
+				5318134A293A243C00E59672 /* TitleLabelsView.swift */,
+				53B6DE83293E3028003CDD7C /* ButtonSearchRecepe.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		53C672AE2930FA5A004DEEE7 /* JSON */ = {
@@ -107,10 +157,11 @@
 		985986A5292BB850007A3807 /* Munchies */ = {
 			isa = PBXGroup;
 			children = (
+				5389866D293F8C1800012F9A /* ListIngredients.json */,
 				5315DA242934F27B006305BC /* afrodite.json */,
+				5331EC2F292C5C5D0008565C /* Application */,
 				5331EC31292C5C7D0008565C /* Resource */,
 				5331EC30292C5C730008565C /* Source */,
-				5331EC2F292C5C5D0008565C /* Application */,
 				985986B4292BB851007A3807 /* Info.plist */,
 			);
 			path = Munchies;
@@ -175,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5389866E293F8C1800012F9A /* ListIngredients.json in Resources */,
 				985986B3292BB851007A3807 /* LaunchScreen.storyboard in Resources */,
 				985986B0292BB851007A3807 /* Assets.xcassets in Resources */,
 				5315DA252934F27B006305BC /* afrodite.json in Resources */,
@@ -209,11 +261,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C672B22930FB0E004DEEE7 /* JSONManager.swift in Sources */,
+				5389866C293F86EB00012F9A /* TableViewModel.swift in Sources */,
 				985986AB292BB850007A3807 /* ViewController.swift in Sources */,
+				5389866A293F86C600012F9A /* TableViewController.swift in Sources */,
 				53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */,
+				535FABE32936E02A00034314 /* MainScreenController.swift in Sources */,
 				985986A7292BB850007A3807 /* AppDelegate.swift in Sources */,
 				53370360293685D9006775BD /* ViewCoding.swift in Sources */,
+				5318134B293A243C00E59672 /* TitleLabelsView.swift in Sources */,
 				985986A9292BB850007A3807 /* SceneDelegate.swift in Sources */,
+				535FABE52936E03E00034314 /* MainScreenView.swift in Sources */,
+				53B6DE84293E3028003CDD7C /* ButtonSearchRecepe.swift in Sources */,
+				53B6DE82293E24C6003CDD7C /* SearchBarController.swift in Sources */,
+				53C0E7A82937CE1800F5960C /* NoIngredientsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

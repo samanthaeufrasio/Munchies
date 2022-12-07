@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 // MARK: - Lista de receitas
 struct Afrodites: Codable {
     let afrodite: [Afrodite]
@@ -38,4 +37,17 @@ struct IDReceita: Codable {
 struct Secao: Codable {
     let nome: String
     let conteudo: [String]
+}
+
+// MARK: - Model Json Ingredients
+
+// MARK: - Ingredients
+struct Ingredients: Codable {
+    let sections: [Section]
+}
+
+// MARK: - Section
+struct Section: Codable {
+    let name: String
+    let ingredients: [String]
 }
