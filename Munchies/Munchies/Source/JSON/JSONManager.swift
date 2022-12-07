@@ -17,7 +17,6 @@ class JSONManager {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let jsonData: [Afrodite] = try decoder.decode([Afrodite].self, from: data)
-//                print(jsonData)
                 return jsonData
             } catch {
                 print(error)
@@ -28,4 +27,23 @@ class JSONManager {
 
     private init() {}
 
+}
+
+class JSONIngredientsManager {
+    static let instance = JSONIngredientsManager()
+
+    func loadJsonIngredients() -> Ingredients? {
+        if let url = Bundle.main.url(forResource: "ListIngredients", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData: Ingredients = try decoder.decode(Ingredients.self, from: data)
+                return jsonData
+            } catch {
+                print(error)
+            }
+        }
+        return nil
+    }
+    private init() {}
 }
