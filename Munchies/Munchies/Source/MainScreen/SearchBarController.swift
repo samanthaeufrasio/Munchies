@@ -6,13 +6,13 @@
 //
 
 import  UIKit
-class ResultsVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemGray
-    }
-}
+//class ResultsVC: UIViewController {
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        view.backgroundColor = .systemGray
+//    }
+//}
 
 class SearchBarController: UIViewController, UISearchResultsUpdating {
 
@@ -34,7 +34,7 @@ class SearchBarController: UIViewController, UISearchResultsUpdating {
         return noIngredients
     }()
 
-    let searchController = UISearchController(searchResultsController: ResultsVC())
+    let searchController = UISearchController(searchResultsController: TableViewController())
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +44,6 @@ class SearchBarController: UIViewController, UISearchResultsUpdating {
         searchController.searchBar.placeholder = "Escolher ingrediente"
         searchController.searchResultsUpdater = self
         navigationItem.searchController = searchController
-//        navigationController?.navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
         
     }
@@ -58,7 +57,7 @@ class SearchBarController: UIViewController, UISearchResultsUpdating {
         guard let text = searchController.searchBar.text else {
             return
         }
-        let vc = searchController.searchResultsController as? ResultsVC
+        let vc = searchController.searchResultsController as? TableViewController
         vc?.view.backgroundColor = .yellow
         print(text)
     }
