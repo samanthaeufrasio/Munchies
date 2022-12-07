@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TagsCollectionViewController: UIViewController{
+class TagsCollectionViewController: UIViewController {
     
     lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewLayout.init())
@@ -36,7 +36,7 @@ class TagsCollectionViewController: UIViewController{
         self.setupConstraints()
     }
     
-    func setupConstraints(){
+    func setupConstraints() {
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 48),
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -44,7 +44,6 @@ class TagsCollectionViewController: UIViewController{
             collectionView.heightAnchor.constraint(equalToConstant: 100)
         ])
     }
-    
     
 }
 
