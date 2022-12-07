@@ -41,7 +41,7 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableViewIngredients.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = tableViewModel.ingredientsArray[indexPath.row]
+//        cell.textLabel?.text = tableViewModel.ingredientsArray[indexPath.row]
         return cell
     }
 
