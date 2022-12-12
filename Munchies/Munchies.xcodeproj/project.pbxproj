@@ -26,6 +26,7 @@
 		985986B3292BB851007A3807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985986B1292BB851007A3807 /* LaunchScreen.storyboard */; };
 		989E797C2940D79000726AB6 /* TagsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E797B2940D79000726AB6 /* TagsCollectionViewController.swift */; };
 		989E79802940DA9300726AB6 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E797F2940DA9300726AB6 /* TagCollectionViewCell.swift */; };
+		989E79822946501400726AB6 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E79812946501400726AB6 /* TagModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		985986B4292BB851007A3807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989E797B2940D79000726AB6 /* TagsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsCollectionViewController.swift; sourceTree = "<group>"; };
 		989E797F2940DA9300726AB6 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		989E79812946501400726AB6 /* TagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				53C672AE2930FA5A004DEEE7 /* JSON */,
 				989E797A2940D73800726AB6 /* CollectionViewTags */,
 				985986AA292BB850007A3807 /* ViewController.swift */,
+				989E79812946501400726AB6 /* TagModel.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				538986712940B6C300012F9A /* ViewCoding.swift in Sources */,
 				53C672B02930FA6B004DEEE7 /* ModelJson.swift in Sources */,
 				535FABE32936E02A00034314 /* MainScreenController.swift in Sources */,
+				989E79822946501400726AB6 /* TagModel.swift in Sources */,
 				985986A7292BB850007A3807 /* AppDelegate.swift in Sources */,
 				5318134B293A243C00E59672 /* TitleLabelsView.swift in Sources */,
 				985986A9292BB850007A3807 /* SceneDelegate.swift in Sources */,

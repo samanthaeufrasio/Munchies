@@ -9,10 +9,12 @@ import UIKit
 
 class TagsCollectionViewController: UIViewController {
     
+    var tagList: [Tag] = tagArrayList
+    
     lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewLayout.init())
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.backgroundColor = .blue
+        collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.contentInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
         collectionView.register(TagCollectionViewCell.self, forCellWithReuseIdentifier: TagCollectionViewCell.identifier)
@@ -20,7 +22,7 @@ class TagsCollectionViewController: UIViewController {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
         layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         layout.scrollDirection = .horizontal
-        
+
         collectionView.setCollectionViewLayout(layout, animated: false)
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -32,6 +34,7 @@ class TagsCollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        self.title = "Receitas encontradas"
         self.view.addSubview(collectionView)
         self.setupConstraints()
     }
@@ -49,11 +52,12 @@ class TagsCollectionViewController: UIViewController {
 
 extension TagsCollectionViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        10
+        tagList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TagCollectionViewCell.identifier, for: indexPath) as? TagCollectionViewCell
+        cell?.config(with: indexPath)
         return cell ?? UICollectionViewCell()
     }
 }
