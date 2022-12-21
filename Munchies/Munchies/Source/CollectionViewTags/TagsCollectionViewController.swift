@@ -60,4 +60,19 @@ extension TagsCollectionViewController: UICollectionViewDelegate, UICollectionVi
         cell?.config(with: indexPath)
         return cell ?? UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath) as? TagCollectionViewCell
+        cell?.filterView.backgroundColor = tagList[indexPath.item].color
+        cell?.filterImage.image = tagList[indexPath.item].iconSelected
+        cell?.filterLabel.textColor = .white
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath) as? TagCollectionViewCell
+        
+        cell?.filterView.backgroundColor = .clear
+        cell?.filterImage.image = tagList[indexPath.item].icon
+        cell?.filterLabel.textColor = tagList[indexPath.item].color
+    }
 }
